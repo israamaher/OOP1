@@ -10,6 +10,9 @@ private:
 public:
 
 	void addDepartment();
+	void addEmpployee();
+	void change();
+	void print();
 
 	Company();
 };
