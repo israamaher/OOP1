@@ -16,7 +16,9 @@ public:
 
 	void setStudentMarks(int sm);
 	int getStudentMarks();
-
-	void Addsubject();;
+	
+	subject operator +(subject s2);
+	subject();
+	subject(string n, int fm, int sm);
 };
 

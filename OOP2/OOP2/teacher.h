@@ -10,6 +10,6 @@ public:
 	double getSalary();
 	void setWorkingHours(int w);
 	int getWorkingHours();
-
+	void doTask();
 };
 

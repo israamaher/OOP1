@@ -149,12 +149,18 @@
   <ItemGroup>
     <ClCompile Include="OOP2.cpp" />
     <ClCompile Include="person.cpp" />
+    <ClCompile Include="school.cpp" />
+    <ClCompile Include="student.cpp" />
     <ClCompile Include="subject.cpp" />
+    <ClCompile Include="TAco.cpp" />
     <ClCompile Include="teacher.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="person.h" />
+    <ClInclude Include="school.h" />
+    <ClInclude Include="student.h" />
     <ClInclude Include="subject.h" />
+    <ClInclude Include="TAco.h" />
     <ClInclude Include="teacher.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -31,21 +31,29 @@ int subject::getStudentMarks()
 	return studentMarks;
 }
 
-void subject::Addsubject()
+subject subject::operator+(subject s2)
 {
-
-	cout << "plaese enter name" << endl;
-	cin >> name;
-	cout << "plaese enter fullmark" << endl;
-	cin >> fullMark;
-	cout << "plaese enter studentmarks" << endl;
-	cin >> studentMarks;
-
-	subject sub;
 	
+	subject rusult;
+	rusult.name = name+s2.getName();
+	rusult.fullMark = fullMark+s2.getFullMark();
+	rusult.studentMarks = studentMarks+s2.getStudentMarks();
 
-
-
-
-
+	return rusult;
 }
+
+subject::subject()
+{
+}
+
+subject::subject(string n, int fm, int sm)
+{
+	name = n;
+	fullMark = fm;
+	studentMarks = sm;
+}
+
+
+
+
+

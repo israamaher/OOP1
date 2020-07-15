@@ -19,3 +19,8 @@ int teacher::getWorkingHours()
 {
 	return workingHoures;
 }
+
+void teacher::doTask()
+{
+
+}

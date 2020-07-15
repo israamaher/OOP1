@@ -23,6 +23,8 @@ public:
 	void setMobile(string m);
 	string getMobile();
 
+	virtual void doTask() = 0;
+
 
 	person();
 };

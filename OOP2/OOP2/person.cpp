@@ -35,7 +35,7 @@ void person::setAddress(string a)
 
 string person::getAddress()
 {
-	return address`;
+	return address;
 }
 
 void person::setMobile(string m)

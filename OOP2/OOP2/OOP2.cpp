@@ -2,6 +2,9 @@
 
 #include <iostream>
 #include "subject.h"
+#include "teacher.h"
+#include "TAco.h"
+#include"school.h"
 using namespace std;
 
 
@@ -21,8 +24,7 @@ int getOption()
 }
 int main()
 {
-    subject sub;
-    subject subjectArr[100];
+    school school;
     while (true)
     {
     int option = getOption();
@@ -30,14 +32,16 @@ int main()
         switch (option)
         {
         case 1:
-           sub.Addsubject(); 
+           school.Addsubject(); 
             break;
         case 2 :
+            school.change();
             break;
         case 3:
+            school.print();
             break;
         case 4:
-            return;
+            return 0;
 
         default:
             break;
