@@ -46,7 +46,7 @@ void school::change()
 
 }
 
-int school::print()
+void school::print()
 {
 	int total = 0;
 
@@ -55,7 +55,7 @@ int school::print()
 		total +=Subject[i].getStudentMarks();
 	}
 
-	return total;
+	cout << total << endl;
 }
 
 school::school(): cont(0)

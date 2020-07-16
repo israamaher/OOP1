@@ -11,7 +11,7 @@ private:
 public:
 	void Addsubject();
 	void change();
-	int print();
+	void print();
 	school();
 };
 
