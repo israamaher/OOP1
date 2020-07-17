@@ -7,7 +7,7 @@ class school
 {
 private:
 	subject Subject[100];
-	int cont;
+	int cont,total;
 public:
 	void Addsubject();
 	void change();

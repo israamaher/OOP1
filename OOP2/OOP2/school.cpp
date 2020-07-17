@@ -50,15 +50,15 @@ void school::print()
 {
 	int total = 0;
 
-	for (int i = 0; i <= cont; i++)
+	for (int i = 0; i < cont; i++)
 	{
-		total +=Subject[i].getStudentMarks();
+	  total +=Subject[i].getStudentMarks();
 	}
-
+	
 	cout << total << endl;
 }
 
-school::school(): cont(0)
+school::school(): cont(0),total(0)
 {
 	
 }
